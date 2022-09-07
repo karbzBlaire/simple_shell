@@ -44,10 +44,10 @@ putchar('\n');
 (*lineptr)[count] = '\0';
 
 /**
+* _getline - reads entire line from a stream
 *for (count = 0; (*lineptr)[count]; count++)
 *putchar((*lineptr)[count]);
 *putchar('\n');
 */
-return (count);
+return ();
 }
-
